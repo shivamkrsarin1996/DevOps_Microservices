@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath="shivam/machine-learning"
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login 
+docker tag machine-learning $dockerpath
 
 # Step 3:
 # Push image to a docker repository
+docker push shivam/machine-learning

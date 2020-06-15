@@ -2,7 +2,10 @@ output of ./run_kubernetes.sh
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
-============================================================
+
+
+
+
 output of ./make_prediction.sh
 Port: 8000
 {
